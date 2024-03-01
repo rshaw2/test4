@@ -76,7 +76,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
 
       # Run npm build and test
       - name: npm build and test
